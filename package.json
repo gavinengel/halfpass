@@ -1,0 +1,30 @@
+{
+  "name": "halfpass",
+  "version": "0.0.0",
+  "description": "A halfpass is half a password",
+  "main": "halfpass.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinengel/halfpass.git"
+  },
+  "keywords": ["password", "hash"],
+  "author": "Gavin Engel <gavin@engel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinengel/halfpass/issues"
+  },
+  "homepage": "https://github.com/gavinengel/halfpass#readme",
+  "dependencies": {
+    "bases": "0.*",
+    "copy-paste": "1.*",
+    "minimist": "1.*",
+    "sha.js": "2.*",
+    "tldjs": "1.*"
+  },
+  "bin": {
+    "halfpass": "./halfpass.js"
+  }
+}
