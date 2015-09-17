@@ -50,10 +50,6 @@ $ halfpass gmail.com -s="this is my secret string"
 copied 2015's halfpass for `gmail.com`: H2s*
 ```
 
-## TODO
-
-* allow file in place of private key
-
 ## Credits
 
 TODO
