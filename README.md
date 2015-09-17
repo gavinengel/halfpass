@@ -29,21 +29,30 @@ $ halfpass gmail.com
 copied 2015's halfpass for `gmail.com`: tU6+
 ```
 
-for extra security, you can mix in extra base64 chars:
+* for extra security, to mix in extra base64 chars:
+
 ```
 $ halfpass gmail.com -a=3
 copied 2015's halfpass for `gmail.com`: tU6+h*a
 ```
 
-if you want a previous year's halfpass:
+* to use a previous year's halfpass:
+
 ```
 $ halfpass gmail.com -y=2014
 copied 2015's halfpass for `gmail.com`: H2s*
 ```
 
+* to pass in a salt instead of using your private key:
+
+```
+$ halfpass gmail.com -s="this is my secret string"
+copied 2015's halfpass for `gmail.com`: H2s*
+```
+
 ## TODO
 
-* allow string in place of private key?
+* allow file in place of private key
 
 ## Credits
 
